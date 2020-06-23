@@ -52,7 +52,8 @@ a:hover{
   border-radius: 50%;
 }
 .img-size{
-  width: 180px;
+  width: 140px;
+  height: 180px;
 }
 .letter-size{
   font-size: 16px;
@@ -94,8 +95,8 @@ a:hover{
 
 .list-inline > li{
   display: inline-block;
-  width: 56px;
-  font-size: 48px;
+  width: 36px;
+  font-size: 24px;
   color: rgb(220,220,220);
   margin: 8px 16px;
 }
