@@ -1,3 +1,3 @@
-<h1>Apresentação -- Profile</h1>
+<h3 class="letter-blue">Apresentação -- Profile</h3>
 
 Camila Queiroz
