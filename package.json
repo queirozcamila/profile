@@ -1,0 +1,22 @@
+{
+  "name": "queirozcamila",
+  "version": "1.0.0",
+  "description": "<h3 class=\"letter-blue\">Apresentação -- Profile</h3>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/queirozcamila/profile.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/queirozcamila/profile/issues"
+  },
+  "homepage": "https://github.com/queirozcamila/profile#readme",
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
