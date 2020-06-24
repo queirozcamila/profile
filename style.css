@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Bellota+Text|Open+Sans:400,700|PT+Sans+Narrow|Poppins|Varela+Round&display=swap');
 
 body{
-  background-color: #f1f3f4;
-  background-image: linear-gradient(10deg, lightblue 50%, transparent 52%), linear-gradient(-60deg, brown 30%, transparent 32%);
   font-size: 16px;
 }
+
 p{
   font-family: 'Poppins', sans-serif;
   color: #0f4c81;
@@ -32,20 +31,48 @@ a{
 a:hover{
   color:#889e81;
 }
+
+img{
+  opacity: 1;
+}
+.header-site{
+background-image: url(https://images.unsplash.com/photo-1499346030926-9a72daac6c63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+background-position: center top;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
 .container {
   width: 800px;   /* This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
 }
 
-.card{
-  background-color: white;
+.card-main{
   padding: 32px;
   margin: 24px auto;
+  color:white;
+}
+
+.bg-blue{
+  background-color:#0f4c81;
+  opacity: 0.7;
+}
+
+.center{
   text-align: center;
 }
 
-.border-shadow{
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+.card{
+  margin: 24px;
+
+}
+
+.text-color-white{
+  color: #e5dfdf;
+  text-shadow: 1px 1px 2px black;
 }
 
 .img-circle{
@@ -61,6 +88,9 @@ a:hover{
   align-content: space-around;
 }
 
+.border-shadow{
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
 .border-round{
   border-radius: 8px;
 }
@@ -77,7 +107,6 @@ a:hover{
 .letter-format{
   font-family: 'Open Sans', sans-serif;
 }
-
 
 .list-none{
   list-style: none;
@@ -110,14 +139,19 @@ a:hover{
   width: 36px;
   font-size: 24px;
   color: rgb(220,220,220);
-  margin: 8px 16px;
+  margin: 16px 16px;
+}
+
+.footer{
+  margin-top: -20px;
 }
 
 .small-icon{
   height: 64px;
 }
 
-/* ------------------ Animação */
+
+/* ----------------------------------------------- Animação */
 
 .first{
   transition: 0.4s;
@@ -157,7 +191,7 @@ a:hover{
 }
 
 
-/* ----------------- Responsividade */
+/* ------------------------------------------ Responsividade */
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */

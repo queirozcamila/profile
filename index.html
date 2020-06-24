@@ -11,39 +11,55 @@
   </head>
 
   <body>
-    <div class="container">
-      <div class="card border-round border-shadow">
-        <h1>Hello there, I'm Camila 🙃</h1>
-        <img src="images/profile.jpg" alt="This is a profile picture" class="img-circle img-size">
-        <p>I'm a full stack developer newly graduated from Le Wagon. To fill my spare time I enjoy running 🏃 and travelling to different places 🌎</p>
-        <a href="https://github.com/queirozcamila?tab=projects" target="_blank" class="letter-size letter-format border-round button-color">Check out my Projects 🤟</a>
-      </div>
-
-      <div class="flex">
-        <div class="card border-round border-shadow">
-          <h3>Choose your future.</h3>
-          <p class="text-left">My career has always been surrounded by numbers. I worked in the accounting of small companies, in the finance of large companies, in auditing (the famous big four) and my last years I spent working in the public sector. Tired of my comfort zone, I decided it was time to move.</p>
+    <section class="header-site">
+      <div class="container card-main  bg-blue border-shadow border-round">
+        <div class="center">
+          <h1 class="text-color-white">Hello there, I'm Camila 🙃</h1>
+          <img src="images/profile.jpg" alt="This is a profile picture" class="img-circle img-size">
+          <p class="text-color-white">I'm a full stack developer newly graduated from Le Wagon. To fill my spare time I enjoy running 🏃 and travelling to different places 🌎</p>
+          <a href="https://github.com/queirozcamila?tab=projects" target="_blank" class="letter-size letter-format border-round button-color">Check out my Projects 🤟</a>
         </div>
-        <div class= "card border-round border-shadow" class="card border-round border-shadow">
-          <h3>Choose your challenge.</h3>
+       </div>
+    </section>
+
+    <section class="">
+      <div class="bg-blue">
+        <div class="container flex">
+          <div>
+            <h3 class="text-color-white">Choose your future.</h3>
+            <div class="card border-round">
+              <p class="text-left text-color-white">My career has always been surrounded by numbers. accounting, finance, auditing. my last years I spent working in the public sector. Tired of my comfort zone, I decided it was time to move.</p>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="text-color-white">Choose your challenge.</h3>
+            <div class= "card border-round">
+              <p class="text-left text-color-white">My career has always been surrounded by numbers. accounting, finance, auditing. my last years I spent working in the public sector. Tired of my comfort zone, I decided it was time to move.</p>
+            </div>
+          </div>
         </div>
       </div>
+    </section>
 
+  <section class="header-site">
+        <div class="container">
+          <h2> Coding</h2>
+          <ul class="list-none letter-blue letter-small">
+            <li><img src="images/rails.png" alt="This is a rails icon" class="first" data-anime="left"></li>
+            <li><img src="images/ruby.png" alt="This is a rails icon" class="second" data-anime="left"></li>
+            <li><img src="images/sql.png" alt="This is a rails icon" class="third" data-anime="left"></li>
+            <li><img src="images/js.png" alt="This is a javascript icon" class="fourth" data-anime="left"></li>
+            <li><img src="images/html.png" alt="This is a rails icon" class="fifth" data-anime="left"></li>
+            <li><img src="images/css.png" alt="This is a rails icon" class="small-icon sixth" data-anime="left"></li></li>
+          </ul>
+        </div>
 
-      <div class="card border-round border-shadow">
-        <h2> Coding</h2>
-        <ul class="list-none letter-blue letter-small">
-          <li><img src="images/rails.png" alt="This is a rails icon" class="first" data-anime="left"></li>
-          <li><img src="images/ruby.png" alt="This is a rails icon" class="second" data-anime="left"></li>
-          <li><img src="images/sql.png" alt="This is a rails icon" class="third" data-anime="left"></li>
-          <li><img src="images/js.png" alt="This is a javascript icon" class="fourth" data-anime="left"></li>
-          <li><img src="images/html.png" alt="This is a rails icon" class="fifth" data-anime="left"></li>
-          <li><img src="images/css.png" alt="This is a rails icon" class="small-icon sixth" data-anime="left"></li></li>
-        </ul>
-      </div>
+  </section>
 
-      <div class="card border-round border-shadow">
-        <h2>Follow me</h2>
+  <section class="footer bg-blue">
+      <div class="center">
+        <h2 class="text-color-white">Follow me</h2>
         <ul class="list-inline">
           <li>
             <a href="https://github.com/queirozcamila" target="_blank">
@@ -62,7 +78,8 @@
           </li>
         </ul>
       </div>
-    </div>
+  </section>
+
     <script src="index.js"></script>
   </body>
 
