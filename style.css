@@ -36,7 +36,7 @@ img{
   opacity: 1;
 }
 .header-site{
-background-image: url(https://images.unsplash.com/photo-1499346030926-9a72daac6c63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+background-image: url(https://www.agdelta.com/wp-content/uploads/2018/06/website-parallax-background-C.jpg);
 background-position: center top;
 background-repeat: no-repeat;
 background-size: cover;
@@ -58,7 +58,12 @@ padding-bottom: 50px;
 
 .bg-blue{
   background-color:#0f4c81;
-  opacity: 0.7;
+  opacity: 0.8;
+  margin: auto  24px;
+}
+
+.bg-transparent{
+  background-color: transparent;
 }
 
 .center{
@@ -70,9 +75,20 @@ padding-bottom: 50px;
 
 }
 
+.dark-box{
+  background-color: black;
+  opacity: 0.8;
+  margin: auto  24px;
+}
+
 .text-color-white{
   color: #e5dfdf;
   text-shadow: 1px 1px 2px black;
+  padding-left:32px;
+
+}
+.margin-auto{
+  margin: auto;
 }
 
 .img-circle{
